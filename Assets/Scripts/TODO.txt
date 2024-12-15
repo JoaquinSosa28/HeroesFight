@@ -1,0 +1,16 @@
+UTILITIES - 
+    Input manager *
+
+ABILITIES SYSTEM - 
+    Scalable system ↑
+    Rotate area accordingly ↑
+    Add different types of abilities *
+
+POWERS - 
+    Ice ↑
+    Telekinesis ↑
+    Fire *
+    Speedster * 
+    Slowmo * 
+    Swordsman * 
+    Me (just for fun) *

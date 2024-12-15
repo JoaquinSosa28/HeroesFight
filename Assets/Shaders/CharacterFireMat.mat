@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: CharacterFireMat
+  m_Shader: {fileID: -6465566751694194690, guid: 584047874b1e6ad42ba9dab574d0341e,
+    type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_A05D4D67:
+        m_Texture: {fileID: 2800000, guid: d9fda5fdf26c65848b146d3c8dfa7754, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_13B48426: 1.2
+    - Vector1_342B8286: 5
+    - Vector1_50FD7222: 0.9
+    - Vector1_925C8E88: 0
+    - Vector1_95B3655D: 3
+    - Vector1_B9C19B4F: 31.8
+    - Vector1_D5ED5D43: 0
+    - Vector1_DF8AD814: 1.77
+    m_Colors:
+    - Color_D1E36F67: {r: 2, g: 0.2039216, b: 0, a: 0}
+    - Color_DA0303B5: {r: 3.7803926, g: 1.5438253, b: 0.1781337, a: 0}
+    - Color_DF449398: {r: 0.6415094, g: 0.50080097, b: 0.36009255, a: 0}
+    - Vector2_E508F5D4: {r: 0.1, g: 0, b: 0, a: 0}
+    - Vector2_EE392E38: {r: -0.1, g: 0.1, b: 0, a: 0}

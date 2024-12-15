@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6870650889808232633
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2508863546663129251}
+  - component: {fileID: 8944558953846131663}
+  - component: {fileID: 4918126310437928113}
+  - component: {fileID: 1861837309849367661}
+  m_Layer: 9
+  m_Name: MeleeWeaponCollider_Rapier
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &2508863546663129251
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6870650889808232633}
+  m_LocalRotation: {x: -0.6629597, y: -0.14646703, z: 0.2687248, w: 0.68324137}
+  m_LocalPosition: {x: -0.047063798, y: 0.59323204, z: 0.5565312}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &8944558953846131663
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6870650889808232633}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.20967759, y: 1.3543686, z: 0.18374173}
+  m_Center: {x: -0.00013552012, y: -0.61145484, z: -0.0014525233}
+--- !u!114 &4918126310437928113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6870650889808232633}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b240867a8d006ed4e916c75f42e621dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncMode: 0
+  syncInterval: 0.1
+  hitTest: {fileID: 7949027684822360569, guid: cc277bed9f078af46a52c2eec28089bf, type: 3}
+  damagePopUpPrefab: {fileID: 1247321637850528984, guid: 96a5f53f6bb1ac044857df2315664823,
+    type: 3}
+--- !u!114 &1861837309849367661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6870650889808232633}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e65723bec36b7904295a83b835b30145, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

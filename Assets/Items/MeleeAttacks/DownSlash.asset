@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08078448e0aba744e81d69b996fcd552, type: 3}
+  m_Name: DownSlash
+  m_EditorClassIdentifier: 
+  attackId: 0
+  radius: 0.69
+  hitBoxes: 0
+  pos0HeightFactor: 0.7
+  pos0ForwardFactor: 0.6
+  pos0SideFactor: 0.47
+  pos1HeightFactor: 0.75
+  pos1ForwardFactor: 0.6
+  pos1SideFactor: -0.36
+  pos2HeightFactor: 0
+  pos2ForwardFactor: 0
+  pos2SideFactor: 0
+  pos3HeightFactor: 0
+  pos3ForwardFactor: 0
+  pos3SideFactor: 0
